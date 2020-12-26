@@ -105,6 +105,8 @@ html, body {
 	padding: 0 42px;
 	margin: 0 auto;
 	margin-bottom: 96px;
+	font-family: 'Roboto', sans-serif;
+	color: #002460;
 }
 
 .Section__title {
@@ -116,6 +118,129 @@ html, body {
 .Section__text {
 	font-size: 16px;
 	font-weight: 400;
+}
+
+.Content__section2 {
+	width: 940px;
+	padding: 0 42px;
+	margin: 0 auto;
+	margin-bottom: 96px;
+	font-family: 'Roboto', sans-serif;
+	color: #002460;
+
+
+}
+
+.Section__title2 {
+	font-size: 36px;
+	font-weight: 900;
+	margin-bottom: 36px;
+	vertical-align: top;
+	display: inline-block;
+
+
+}
+
+.Section__text2 {
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 14px;
+	vertical-align: baseline;
+
+}
+
+.Section__text3 {
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 24px;
+}
+
+.Content__image2 {
+	display: inline-block;
+	margin-left: 120px;
+	font-size: 16px;
+
+
+}
+
+
+	
+	
+}
+
+.Section__table {
+	width: 100%;
+}
+
+.Table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.Tr {
+	width: 100%;
+}
+
+.Th {
+	font-size: 24px;
+	padding: 16px 24px;
+	width: 50%;
+	border: 4px solid #f1f1f1;
+	text-align: left;
+}
+
+.Td {
+	padding: 16px 24px;
+	border: 4px solid #f1f1f1;
+}
+
+.Section__form {
+
+}
+
+.Form__item {
+	display: inline-block;
+	margin-right: 24px;
+}
+
+.Form__item_end {
+	margin-right: 0;
+}
+
+.Form__label {
+	display: block;
+	font-weight: 900;
+	margin-bottom: 8px;
+}
+
+.Form__input {
+	border: 4px solid #f1f1f1;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	padding: 16px 24px;
+	outline: none;
+	width: 330px;
+}
+
+.Form__select {
+	border: 4px solid #f1f1f1;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	padding: 16px 24px;
+	outline: none;
+	width: 386px;
+}
+
+.Form__button {
+	padding: 20px 28px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	background-color: #002460;
+	color: white;
+	border: none;
+	font-weight: 700;
+	cursor: pointer;
+	outline: none;
 }
 
 .Section__lists {}
